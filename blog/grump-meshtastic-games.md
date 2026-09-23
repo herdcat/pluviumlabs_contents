@@ -7,7 +7,7 @@ secondary_keywords: "Irving Finkel rules, ancient board games, Meshtastic protoc
 date: "2026-09-22"
 author: "Jason Brown"
 tags: "meshtastic, python, games, history, side-projects"
-draft: true
+draft: false
 ---
 
 The people who first played the Royal Game of Ur are gone. Their cities became archaeological sites, and the rules had to be pieced back together. But 4,500 years later, we can still sit down and play.
