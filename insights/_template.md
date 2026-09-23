@@ -7,6 +7,8 @@ secondary_keywords: "supporting keyword one, supporting keyword two"
 date: "2026-09-02"
 project: "Project name"
 tags: "cloud, platform-engineering"
+featured_image: "path/to/hero-image.jpg"
+featured_image_alt: "Descriptive alt text for the hero image, including the primary keyword if it fits naturally"
 draft: true
 ---
 
@@ -19,6 +21,9 @@ Explain what you wanted to understand, improve, or build. Include the primary ke
 ## What I built
 
 Describe the system and the most important technical decisions. Use the secondary keywords in subheadings where they fit naturally.
+
+![Descriptive alt text for this screenshot](path/to/screenshot-1.png)
+*Caption explaining what the reader is looking at.*
 
 ## What I learned
 

@@ -7,19 +7,35 @@ secondary_keywords: "supporting keyword one, supporting keyword two"
 date: "2026-09-21"
 author: "Author name"
 tags: "cloud, business"
+featured_image: "path/to/hero-image.jpg"
+featured_image_alt: "Descriptive alt text for the hero image, including the primary keyword if it fits naturally"
 draft: true
 ---
 
 <!-- Before publishing: confirm this title and primary keyword are not reused from any published or drafted post. -->
 
-## The question
+Open with a hook, not a header — a sentence or two that pulls the reader in and states what they'll get out of this post. Work the primary keyword in naturally within the first paragraph.
 
-Introduce the decision or topic. Work the primary keyword naturally into the first paragraph.
+![Descriptive alt text for this screenshot](path/to/screenshot-1.png)
+*Caption explaining what the reader is looking at.*
 
-## What to consider
+## [Replace with a descriptive subheading]
 
-Share your perspective and explain its basis. Use the secondary keywords in subheadings where they fit naturally.
+Make your first point. Write like you're talking to one person, not issuing a memo — use "you," short sentences, and real examples.
 
-## Next steps
+## [Replace with another descriptive subheading]
 
-Give readers something useful to take away, and link to a related internal or external resource.
+Keep going with your next point. Use the secondary keywords in subheadings where they fit naturally, and break up long paragraphs with a list, quote, or image where it helps.
+
+![Descriptive alt text for this screenshot](path/to/screenshot-2.png)
+*Caption explaining what the reader is looking at.*
+
+## Key takeaways
+
+- Takeaway one
+- Takeaway two
+- Takeaway three
+
+## Wrap-up
+
+Close with a clear next step for the reader — a related post, a resource, or an invitation to reach out.
