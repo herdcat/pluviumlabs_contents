@@ -6,6 +6,8 @@ keyword: "Royal Game of Ur Meshtastic"
 secondary_keywords: "Irving Finkel rules, ancient board games, Meshtastic protocol, mesh networking games"
 date: "2026-09-22"
 author: "Jason Brown"
+featured_image: "blog/assets/grump-ur-mesh-cover.png"
+featured_image_alt: "A stylized digital Royal Game of Ur board floating above a landscape connected by glowing radio mesh signals."
 tags: "meshtastic, python, games, history, side-projects"
 draft: false
 ---
