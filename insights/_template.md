@@ -1,18 +1,24 @@
 ---
-title: "Project title"
-summary: "A concise description for the Insights index and search results."
+title: "Unique, insight-driven project title (60 characters or fewer)"
+slug: "unique-keyword-rich-url-slug"
+meta_description: "A unique 140-160 character summary that includes the primary keyword and the insight readers will gain."
+keyword: "primary target keyword"
+secondary_keywords: "supporting keyword one, supporting keyword two"
 date: "2026-09-02"
 project: "Project name"
 tags: "cloud, platform-engineering"
+draft: true
 ---
+
+<!-- Before publishing: confirm this title and primary keyword are not reused from any published or drafted insight. -->
 
 ## The problem
 
-Explain what you wanted to understand, improve, or build.
+Explain what you wanted to understand, improve, or build. Include the primary keyword naturally in the opening paragraph.
 
 ## What I built
 
-Describe the system and the most important technical decisions.
+Describe the system and the most important technical decisions. Use the secondary keywords in subheadings where they fit naturally.
 
 ## What I learned
 
