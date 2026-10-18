@@ -1,0 +1,83 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "A custom author website for an Oregon memoirist",
+   "description": "Memoir author Lilitu Rodac knew nothing about websites. Pluvium Labs built her a custom author website she can update herself, integrated with Substack.",
+   "about": "Author website for Substack writers",
+   "datePublished": "2026-10-17",
+   "dateModified": "2026-10-17",
+   "author": {
+    "@type": "Person",
+    "name": "Jason Brown",
+    "jobTitle": "Founder",
+    "worksFor": {
+     "@type": "Organization",
+     "name": "Pluvium Labs",
+     "url": "https://pluviumlabs.com"
+    }
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Pluvium Labs",
+    "url": "https://pluviumlabs.com"
+   },
+   "mentions": {
+    "@type": "Person",
+    "name": "Lilitu Rodac",
+    "jobTitle": "Memoir author",
+    "url": "https://liliturodac.com",
+    "homeLocation": {
+     "@type": "State",
+     "name": "Oregon"
+    }
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "I know nothing about websites. Is that a problem?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. That was Lilitu Rodac's starting point too. You bring what you want the site to feel like and whatever you already have, like writing, art or a newsletter. Jason handles the domain, design, build and hosting, and explains only as much as you want to know."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I update my author website myself?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Lilitu Rodac updates her own content in an easy editor, with no code, so changes show up on her site right away. For bigger changes to the site itself, she emails Jason."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need a website if I already have Substack?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Substack is a good place to publish, but it isn't a home you own, and agents and readers expect to find one. Lilitu Rodac kept Substack for her essays and added a website around it, integrated with her Substack sign-up."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should I build an author website before my book comes out?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, ideally. Lilitu Rodac had a memoir on the way and wanted her site live first, so agents and early readers would find a professional home when they looked her up, not just a newsletter."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I use a pen name and keep my real name private?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Lilitu Rodac's site runs entirely under her pen name, and Jason set it up to keep her identity confidential. The domain is registered with privacy protection, so her real name and address don't show up in public domain records. The site, footer, contact email and social links all use the pen name, her art stands in for a headshot, and images are saved without hidden file details."
+     }
+    }
+   ]
+  }
+ ]
+}
