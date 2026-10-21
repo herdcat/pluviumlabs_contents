@@ -1,0 +1,18 @@
+# Case study manifests
+
+Each post uses `<existing-public-slug>.manifest.json` beside its existing article. The current migration pairs `lilitu-case-study.manifest.json` with `lilitu-case-study.html`; its cover is `images/share-image.png`. The title matches the H1 and JSON-LD headline, summary matches the embedded description, and date matches `datePublished`. The HTML has no draft flag and remains a published standalone article, represented by `draft: false`. The cover is the existing repository share image. No article, asset, embedded metadata, or publication flag was changed.
+
+## Authoring
+
+1. Copy `_template.manifest.json` to the existing public slug plus `.manifest.json`. The template is excluded by its leading underscore and deliberately contains a placeholder content path. Keep the existing article and URLs. If the manifest filename cannot match the public slug, supply that existing value as `slug`.
+2. Set `content_file` to one existing repository-relative `.html`, `.htm`, or `.md` file inside `case-studies/`. Each article can belong to only one manifest; the website suppresses its separate standalone entry. Do not move or rewrite articles during migration.
+3. Copy reliable approved title, summary, and publication date. Titles allow at most 140 characters; summaries require 30–180 characters. Use a valid `YYYY-MM-DD` date, never an invented date. Future dates are excluded by the website. Omit unknown optional metadata and request owner input. `meta_description` is an accepted alternative; prefer `summary`.
+4. Preserve publication status with a JSON boolean `draft`. Manifests override embedded metadata; omitted fields inherit it. Leave embedded metadata and publication flags unchanged until the manifest loader is deployed. New drafts should remain `true` until approved.
+5. If an existing approved image is suitable, add its repository-relative path or absolute HTTPS URL as `featured_image` and describe it in `featured_image_alt`. Otherwise omit both and report the missing approved asset. Do not invent image URLs. Local images must exist; HTTPS image availability and approval need manual review.
+6. Optional fields are `slug`, `client`, `industry`, `location`, and `tags`. Tags are an array of nonempty strings without commas or a comma-separated string. Markdown requires `client` and `industry`, supplied by the manifest or existing front matter. Standalone HTML may omit them. Never infer unsupported values. No other manifest fields are accepted.
+7. Paths must not begin with `/`, contain traversal segments, or reference a file/folder beginning with `_` or `.`. Use `/` separators. Keep authoring documentation and helper files excluded; this workflow is named `_README.md` for that reason.
+8. Run `node scripts/validate-case-study-manifests.mjs --today=YYYY-MM-DD`, using today's date in the publishing timezone. Without the option the checker uses America/Los_Angeles. Resolve errors before review. It validates JSON, field types, effective required metadata, paths, local image existence, unique slugs/content references, and byte/count limits. It reports missing images and metadata. It does not publish or deploy.
+
+Limits: 16,384 UTF-8 bytes per manifest; 5,242,880 bytes per HTML body; 256,000 bytes per Markdown body; 50 posts total, with each manifest/body pair counting once. Files and folders beginning with `_` or `.` are excluded. `schema.json` is existing article JSON-LD, not a manifest schema; preserve it.
+
+For new Markdown posts, the legacy `_template.md` remains available for body authoring. Its extra front matter keys belong only in the body, never in the manifest. The manifest template intentionally omits date and image placeholders so they cannot masquerade as approved facts.
