@@ -1,6 +1,6 @@
 # Case study manifests
 
-Each post uses `<existing-public-slug>.manifest.json` beside its existing article. The current migration pairs `lilitu-case-study.manifest.json` with `lilitu-case-study.html`; its cover is `images/share-image.png`. The title matches the H1 and JSON-LD headline, summary matches the embedded description, and date matches `datePublished`. The HTML has no draft flag and remains a published standalone article, represented by `draft: false`. The cover is the existing repository share image. No article, asset, embedded metadata, or publication flag was changed.
+Each post uses `<existing-public-slug>.manifest.json` beside its existing article. The current migration pairs `lilitu-case-study.manifest.json` with `lilitu-case-study.html`; its cover is `images/lilitu-case-study-cover.png`, the owner-approved generated cover with desktop and mobile previews on the original navy background. The original `images/share-image.png` is preserved. The title matches the H1 and JSON-LD headline, summary matches the embedded description, and date matches `datePublished`. The HTML has no draft flag and remains a published standalone article, represented by `draft: false`. No article, embedded metadata, or publication flag was changed.
 
 ## Authoring
 
